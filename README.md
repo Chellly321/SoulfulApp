@@ -38,14 +38,15 @@ This is an integrated development environment (IDE). It is used to build, edit o
 ## Clone the application 
 Option A
 There are different ways to clone a Git repository to your IDE (Webstorm in this case). Here you can choose the HTTPS option and click on the clipboard icon to copy the URL.
+![Screen Shot 2022-10-03 at 12 50 29 AM](https://user-images.githubusercontent.com/87495212/193504108-f29eea65-c43b-4dd8-addf-a85b001d7bf4.png)
 
 When you’ve done that, go to your IDE > click on ‘Get from VCS’ > paste the URL in the right section > and press “Clone” underneath.
-
+![Screen Shot 2022-10-03 at 12 50 22 AM](https://user-images.githubusercontent.com/87495212/193504203-d2fd1f15-9014-442a-9d50-a130df88207f.png)
 
 
 Option B
 Download ZIP file; Open your IDE; Press open or go from the main menu > select File > New > Project from Existing Sources; Now select the ZIP file you’ve just downloaded and let it load onto your IDE.
-
+![Screen Shot 2022-10-03 at 12 50 10 AM](https://user-images.githubusercontent.com/87495212/193504232-cc5506d2-5548-42aa-aaee-c3ab8da0b0fe.png)
 
 ##Getting Started with Create React App 
 
