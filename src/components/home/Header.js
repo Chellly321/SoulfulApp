@@ -1,6 +1,5 @@
 import headerImg from "../../assets/images/header-img.svg";
-import navLink from "react-router-dom/es/NavLink";
-import courses from "../../pages/Courses";
+
 
 function Header() {
   return (
