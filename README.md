@@ -103,5 +103,5 @@ Hier kun je gebruik maken van de database, gebruikers verwijderen/toevoegen en c
 
 # Github reference
 
-[https://github.com/Chellly321/SoulfulApp/] (https://github.com/Chellly321/SoulfulApp/)
+[Github link] (https://github.com/Chellly321/SoulfulApp/)
 
