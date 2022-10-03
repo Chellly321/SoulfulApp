@@ -1,0 +1,71 @@
+.user-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 2rem);
+  height: 160px;
+  background-color: var(--secondary);
+  padding: 0.1rem 1rem;
+}
+
+.user-list-container__image-wrapper {
+  width: 106px;
+  height: 103px;
+}
+.user-list-container__image-wrapper .user-list-container__user-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.user-list-container__user-credentials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.user-list-container__user-credentials p {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.user-list-container__course-progress {
+  display: flex;
+  flex-direction: column;
+}
+.user-list-container__course-progress p {
+  padding: 0;
+  margin: 0.3rem 0 0 0;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.user-list-container__course-progress button {
+  border: none;
+  background-color: var(--primary);
+  font-size: 0.9rem;
+  font-weight: 400;
+  width: 150px;
+  height: 32px;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .user-list-container {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    gap: 2rem;
+    padding: 3rem 1rem;
+  }
+  .user-list-container__user-credentials {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

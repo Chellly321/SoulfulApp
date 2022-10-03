@@ -1,0 +1,89 @@
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem 4rem;
+  gap: 7rem;
+}
+.about-pic {
+  height: 500px;
+  width: 25vw;
+}
+.about-container div h1 {
+  display: flex;
+  justify-content: center;
+  border: 30px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.about-container div p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-align: justify;
+  margin-top: 2rem;
+}
+.about-container button {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  border-radius: 2rem;
+  outline: none;
+  background-color: var(--primary);
+  margin: 1px;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-container {
+    gap: 5rem;
+  }
+  .about-pic {
+    height: 500px;
+    width: 45vw;
+  }
+  .about-container div p {
+    padding-right: 2.5rem;
+    font-weight: 200;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-container {
+    gap: 1.5rem;
+  }
+  .about-pic {
+    height: 300px;
+    width: 35vw;
+  }
+  .about-container div p {
+    padding-right: 0;
+    font-size: 1rem;
+    font-weight: 200;
+  }
+  .about-container div h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .about-container {
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+  .about-pic {
+    height: 400px;
+    width: 90vw;
+  }
+  .about-container div p {
+    padding-right: 0;
+    font-size: 1rem;
+    font-weight: 200;
+  }
+  .about-container div h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}

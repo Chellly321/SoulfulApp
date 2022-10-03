@@ -1,0 +1,42 @@
+.card {
+  background-color: var(--bg);
+  padding: 1rem 0.5rem;
+  border-radius: 1.5rem;
+}
+.card p {
+  text-align: center;
+  padding: 1rem;
+  border: none;
+  margin: 1rem 0.5rem ;
+}
+.card button {
+  width: 120px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background-color: var(--primary);
+  display: block;
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 300;
+  border-radius: 1rem;
+}
+.card:hover {
+  border: 5px solid var(--heading) !important;
+  transition: 0.1s ease-in;
+  padding: 1.38rem 0.5rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 287px;
+    height: 254px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .card {
+    width: 95%;
+    height: auto;
+  }
+}

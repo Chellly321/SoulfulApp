@@ -1,0 +1,30 @@
+.contacts-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+.contacts-container div:nth-last-child(1):hover {
+  cursor: pointer;
+}
+
+.contacts-container button {
+  border: none;
+  background-color: var(--primary);
+  font-size: 1rem;
+  font-weight: 400;
+  width: 150px;
+  height: 32px;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .contacts-container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+  }
+}

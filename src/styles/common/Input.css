@@ -1,0 +1,19 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.input-container input {
+  width: 95%;
+  height: 30px;
+  border: none;
+  outline: none;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.input-container label {
+  font-weight: 500;
+  margin-top: 2rem;
+}

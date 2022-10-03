@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("./styles/common/Navbar.css");
+@import url("./styles/common/Slider.css");
+@import url("./styles/common/Input.css");
+@import url("./styles/common/Card.css");
+@import url("./styles/common/Footer.css");
+@import url("./styles/common/Graph.css");
+@import url("./styles/home/Header.css");
+@import url("styles/home/Subscribe.css");
+@import url("./styles/home/About.css");
+@import url("./styles/home/Modules.css");
+@import url("./styles/home/Testimonial.css");
+@import url("./styles/dashboard/Studenten.css");
+@import url("./styles/dashboard/Balance.css");
+@import url("./styles/PageNotFound.css");
+@import url("./styles/common/Modal.css");
+@import url("./styles/auth/Auth.css");
+@import url("./styles/contactus/ContactDetail.css");
+@import url("./styles/contactus/ContactForm.css");
+@import url("./styles/contactus/ContactInfo.css");
+@import url("./styles/aboutus/AboutInfo.css");
+@import url("./styles/aboutus/AboutDetail.css");
+@import url("./styles/aboutus/AboutList.css");
+@import url("./styles/courses/CourseOverview.css");
+@import url("./styles/common/Heading.css");
+@import url("./styles/account/Profile.css");
+@import url("./styles/account/Theory.css");
+@import url("./styles/account/SelectedModule.css");
+@import url("./styles/account/VideoContent.css");
+@import url("./styles/admin/AdminOverview.css");
+@import url("./styles/admin/Contacts.css");
+@import url("./styles/common/UserList.css");
+@import url("./styles/admin/Content.css");
+@import url("./styles/common/YogaCard.css");
+
+:root {
+  --primary: #d8ab7e;
+  --secondary: #f3dcc6;
+  --heading: #8b6743;
+  --text: #000000;
+  --border: #8b6743;
+  --bg: #ffffff;
+  --btn: #e8bf96b2;
+  --btnText: #e8bf96;
+  --sectionBg: #faf2e9;
+  --dashboard: #f6e9dc;
+  --dashboard-heading: #a098ae;
+  --authBtn: #9e6927;
+  --authBorder: #b9926b;
+  --modalBg: #ffddbb;
+  --textAreaBorder: #b08050;
+  --progressBar: #f5f5f5;
+  --theoryBg: #d9d9d9;
+  --selectedModule: #e2dcd6;
+  --uploadIcon: #99999;
+  --browseFile: #008532;
+  --yogaCard: #d9d9d9;
+}
+
+body,
+html {
+  font-family: "Inter", sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+}
