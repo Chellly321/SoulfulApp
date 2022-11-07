@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'soulfulwebapplication'" />
-    <option name="defaultScopeName" value="Project 'soulfulwebapplication'" />
-    <option name="SEARCH_SCOPE" value="Project 'soulfulwebapplication'" />
+    <option name="customScope" value="Project '5-bootstrap-fcc'" />
+    <option name="defaultScopeName" value="Project '5-bootstrap-fcc'" />
+    <option name="SEARCH_SCOPE" value="Project '5-bootstrap-fcc'" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.shtml</mask>
